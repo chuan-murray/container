@@ -1,6 +1,6 @@
 import {createRoot} from "react-dom/client";
 import React from "react";
-import Button from "library/src/components/Button/Button.jsx"
+import { Button } from "library"
 
 const el = document.getElementById("app");
 const root = createRoot(el)
